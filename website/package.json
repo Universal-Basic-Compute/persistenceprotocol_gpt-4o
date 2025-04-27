@@ -1,0 +1,18 @@
+{
+  "name": "persistenceprotocol-<model-name>-website",
+  "scripts": {
+    "dev": "cross-env NEXT_PUBLIC_MODEL_NAME='<Model-Variant>' next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "devDependencies": {
+    "typescript": "^5.0",
+    "eslint": "^8.0",
+    "cross-env": "^7.0"
+  }
+}
